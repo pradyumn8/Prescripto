@@ -30,9 +30,9 @@ Welcome to the **Full Stack Doctor Appointment Booking System**! This project is
 
 1. Clone the repository:
 
-   ```bash
+ ```bash
    git clone https://github.com/pradyumn8/Prescripto.git
-   ```
+ ```
 2.Navigate to the backend folder and install dependencies:
 
    ```bash
@@ -59,20 +59,23 @@ Welcome to the **Full Stack Doctor Appointment Booking System**! This project is
     cd admin
     npm install
    ```
-
 4.Set up environment variables for database connection and other configurations.
 
 5.Start the backend, frontend and admin servers:
-npm run server  # for backend
-npm run dev  # for frontend
-npm run dev  # for admin
-
-
-####🎯 Visit http://localhost:5153 in your browser for the frontend.
+ ```bash
+    cd backend
+    npm run server  # for backend
+ ```
+ ```bash
+    cd frontend
+    npm run dev  # for frontend
+ ```
+ ```bash
+    cd admin
+    npm run dev  # for admin
+ ```
+#### 🎯 Visit http://localhost:5153 in your browser for the frontend.
 #### 🏢 Visit http://localhost:5154 in your browser for the admin panel.
-#### 🚀 Live Demo
-Live Project🌐(https://prescripto-2-3buf.onrender.com/)
-
 
 ### Contributing
 #### We welcome contributions! 🙌
